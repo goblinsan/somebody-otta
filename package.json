@@ -1,0 +1,40 @@
+{
+  "name": "somebody-otta",
+  "version": "1.0.0",
+  "description": "An OpenClaw service wrapper to provide managed personal assistant benefits for family members.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint 'src/**/*.ts' 'tests/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goblinsan/somebody-otta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/goblinsan/somebody-otta/issues"
+  },
+  "homepage": "https://github.com/goblinsan/somebody-otta#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
+    "@typescript-eslint/parser": "^8.57.0",
+    "eslint": "^10.0.3",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  }
+}
